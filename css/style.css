@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url("img-1.jpeg"); 
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 5px 15px;
+    background-size: cover;
+}
+
+.title{
+    font-size: 75px;
+    margin-bottom: 60px;
+}
+
+.main{
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 5px 15px;
+}
+
+.CoolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    word-spacing: -1px;
+    color: tomato;
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -3px -3px 0 firebrick,
+      -4px -4px 0 firebrick,
+      -5px -5px 0 firebrick,
+      -6px -6px 0 firebrick,
+      -7px -7px 0 firebrick,   
+      -30px 20px 40px dimgrey;
+  }
+  
+
+ul li {
+    clear: both;
+    margin-top:0;
+    margin-left:-38px;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+li:before{
+    content: '';
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-size: 13px;
+    background-image: url("square-regular.svg");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+
+li:nth-child(odd) {
+    background: #f2f2f2;
+  }
+
+.fas{
+    color: green;
+    background:transparent;
+}
+
+#enter{
+    color: blue;
+    background-image: linear-gradient(yellow, rgb(165, 255, 0));
+    border-radius: 10px;
+    box-shadow: 0,0,20px,0.9;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 100;
+    margin-left:2px;
+    font-size: 14px;
+}
+
+.delete{
+    background: transparent;
+}
+
+
+.done{
+    text-decoration: line-through;
+}
+
+button{
+    padding: 0 3px;
+    margin-left:10px;
+}
+
+input{
+    padding: 4px;
+}
