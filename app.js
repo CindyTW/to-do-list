@@ -1,5 +1,9 @@
 let express = require("express");
 let app = express();
+let mongoose = require("mongoose");
+
+mongoose.connect("mongodb+srv://cindy:sHHzYzgpZr6cfuv@mycluster-s1bn0.mongodb.net/wannado-list",{useNewUrlParser: true, useUnifiedTopology: true});
+
 
 app.use(express.static("/public"));
 
